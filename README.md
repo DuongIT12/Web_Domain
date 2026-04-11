@@ -32,6 +32,20 @@ Sau bước trên, Cloudflare sẽ hiển thị mục Change your nameservers. T
 Hãy sao chép (copy) 2 dòng này để chuẩn bị dán vào trang quản lý tên miền.<br>
 <img width="1929" height="552" alt="Untitled5" src="https://github.com/user-attachments/assets/46fbbd34-9e39-481f-9a3d-42390857924f" />
 **Bước 3: Cập nhật Nameservers tại trang quản trị (vd: Mắt Bão)** <br>
+### B4. Nhập 2 dòng namespace của cloudflare vào trong trang quản lý DNS record của tên miền đăng ký (vd trên mắt bão)
+1. Tìm mục có tên là Quản lý DNS hoặc Thay đổi Nameserver.
+2. Tại đây, bạn sẽ thấy các dòng Nameserver mặc định của Mắt Bão (thường là ns1.matbao.com, ns2.matbao.com).
+3. Chọn tùy chọn: Sử dụng Nameserver khác (hoặc Nameserver tùy chỉnh).
+4. Bạn xóa trắng các dòng cũ và dán 2 dòng từ Cloudflare vào:
+Nameserver 1: itzel.ns.cloudflare.com
+Nameserver 2: (Dòng thứ 2 trong ảnh Cloudflare của bạn, ví dụ: olga.ns.cloudflare.com)
+5. Nhấn Cập nhật hoặc Lưu.
+<img width="1916" height="1039" alt="Untitled6" src="https://github.com/user-attachments/assets/b87f66c4-148a-4a98-b82e-ffac4fa96610" />
+
+## B. Cài đặt Ubuntu + Docker
+
+
+
 
  
 
