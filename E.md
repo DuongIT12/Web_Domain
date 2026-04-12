@@ -17,10 +17,11 @@
 
 5. Sử dụng nodered: kéo nodered http_in , http_response, function : để tạo api get đơn giản (dùng cho /api proxy_pass của nginx)<br>
 - Deloy Succese
-<img width="848" height="525" alt="image" src="https://github.com/user-attachments/assets/c0b92c6c-662a-4a8f-bcaa-7d9c69ff944a" />
+<img width="1899" height="955" alt="image" src="https://github.com/user-attachments/assets/04b09581-024a-4fbf-b636-b56e9b15e902" />
+
 
 6. Sửa file ./myweb/index.html : thêm code html+js để sử dụng được api đã khai báo proxy_pass (thực ra là sử dụng nodered http_in hoặc sử dụng service myapi)
-![Uploading image.png…]()
+<img width="848" height="525" alt="image" src="https://github.com/user-attachments/assets/b03b063c-fe4d-4770-b508-351818e4e33a" />
 
 
 
